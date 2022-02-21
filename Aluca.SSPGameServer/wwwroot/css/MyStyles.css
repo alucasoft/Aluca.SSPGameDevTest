@@ -1,0 +1,111 @@
+﻿
+.lightBeigex {
+    background-color: #dddddd;
+}
+
+.darkGray {
+    background-color:  darkgray;
+}
+
+
+
+.darkOliveText-x {
+    font-size:      18px;
+    font-family:    "Roboto";
+    font-weight:    400;
+    color:          steelblue;  
+    font-style:     italic;
+}
+
+
+
+
+
+.darkRedText-m {
+    font-size:      16px;
+    font-family:    "Roboto";
+    font-weight:    400;
+    color:          darkred;
+}
+
+
+.darkRedText-x {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: darkred;
+}
+
+.darkBlueText-x {
+    font-size:      20px;
+    font-family:    "Roboto";
+    font-weight:    500;
+    color:          darkblue;
+}
+
+.darkBlueText-m {
+    font-size:   16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: darkblue;
+}
+
+.darkGreenText-x {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color:  darkgreen
+}
+
+.darkGreenText-m {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: darkgreen
+}
+
+
+
+.darkSlateBlueText-x {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: darkslateblue;
+}
+
+.darkSlateBlueText-m {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: darkslateblue;
+}
+
+
+.darkSaddleBrownText-x {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: saddlebrown;
+}
+
+.darkSaddleBrownText-m {
+    font-size:   16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color:      saddlebrown;
+}
+
+
+.darkIndigoText-x {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: indigo;
+}
+
+.darkIndigoText-m {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: indigo;
+}

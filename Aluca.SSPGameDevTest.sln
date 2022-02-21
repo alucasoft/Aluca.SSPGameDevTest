@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aluca.SSPGameEngine", "Aluca.SSPGameEngine\Aluca.SSPGameEngine.csproj", "{08EF3FCE-F66E-4BBE-A05A-DC28557119C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aluca.SSPGameConsoleApp", "Aluca.SSPGameConsoleApp\Aluca.SSPGameConsoleApp.csproj", "{A9763C63-F092-4EBF-A670-D1E8722F09F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aluca.SSPGameServer", "Aluca.SSPGameServer\Aluca.SSPGameServer.csproj", "{DE36F838-E9B1-4CE9-A0D5-7077EE8419C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aluca.SSPGameUnitTest", "Aluca.SSPGameUnitTest\Aluca.SSPGameUnitTest.csproj", "{4A8E260C-C247-4083-A062-91A5CCD6D02A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08EF3FCE-F66E-4BBE-A05A-DC28557119C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EF3FCE-F66E-4BBE-A05A-DC28557119C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EF3FCE-F66E-4BBE-A05A-DC28557119C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EF3FCE-F66E-4BBE-A05A-DC28557119C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9763C63-F092-4EBF-A670-D1E8722F09F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9763C63-F092-4EBF-A670-D1E8722F09F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9763C63-F092-4EBF-A670-D1E8722F09F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9763C63-F092-4EBF-A670-D1E8722F09F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE36F838-E9B1-4CE9-A0D5-7077EE8419C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE36F838-E9B1-4CE9-A0D5-7077EE8419C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE36F838-E9B1-4CE9-A0D5-7077EE8419C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE36F838-E9B1-4CE9-A0D5-7077EE8419C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8E260C-C247-4083-A062-91A5CCD6D02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8E260C-C247-4083-A062-91A5CCD6D02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8E260C-C247-4083-A062-91A5CCD6D02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8E260C-C247-4083-A062-91A5CCD6D02A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E33F77E1-5DC5-4CF5-B63C-2C08FF11FED9}
+	EndGlobalSection
+EndGlobal

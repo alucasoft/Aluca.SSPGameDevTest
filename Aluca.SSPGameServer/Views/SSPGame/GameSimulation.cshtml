@@ -1,0 +1,68 @@
+﻿@model List<Aluca.SSPGameEngine.SSPGameTurnData>
+
+
+@{
+    ViewData["Title"] = "Alucas Scissor-Stone-Paper Game-Simulation";
+}
+
+
+<p>
+    <h5 class="darkOliveText">@ViewBag.GameFinalResult</h5>
+</p>
+
+
+<table class="table lightBeige">
+
+    <thead>
+
+        <tr class="darkOliveText-x m-3">
+
+            <th width="100px">Turn</th>
+            <th width="200px">Winner</th>
+            <th width="300px">Winner-Gesture</th>
+            <th width="400px">Info</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody class="darkRedText-m">
+        @foreach (var item in Model)
+        {
+
+            if (item.WinnerName == "Player-A")
+            {
+                <tr class="darkBlueText-m">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GameTurnId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WinnerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WinnerGesture)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TurnInfo)
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr class="darkRedText-m">>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GameTurnId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WinnerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WinnerGesture)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TurnInfo)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
